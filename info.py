@@ -46,7 +46,7 @@ FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c
 # ============================
 # Admin, Channels & Users Configuration
 # ============================
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6570833761 5685076977').split()] # Replace with the actual admin ID(s) to add
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6570833761 5685076977 8680554561').split()] # Replace with the actual admin ID(s) to add
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1004447975687').split()]  # Channel id for auto indexing (make sure bot is admin)
 
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1004487974134'))  # Log channel id (make sure bot is admin)
@@ -126,7 +126,7 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # Channel & Group Links Configuration
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+sBD5THgT-LUxNGZl') # Group link for the bot
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Aayushhumm') # Owner link for the bot
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Ramhumaisach') # Owner link for the bot
 UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/+LZ4m27YdAOJhMWI1') # Update channel link for the bot
 
 # ============================
