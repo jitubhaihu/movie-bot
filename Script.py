@@ -269,40 +269,38 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-CAPTION = """  <a href="https://t.me/+lVuSGuIJT3E4NTY1">
-<b>{file_name}</b></a
+    CAPTION = """ <a href="https://t.me/+lVuSGuIJT3E4NTY1">
+    <b>{file_name}</b></a>
 
-<b><blockquote>𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 ➥ <a href="https://t.me/+n8A12pYV6RwwNGU1">
-𝐔𝐏𝐃𝐀𝐓𝐄 CHANNEL
-</a></blockquote></b><b><blockquote>𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 ➥ <a href="https://t.me/+YikUIObYI_pmOWU1">
-@𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏</a></blockquote></b>"""
+    <b><blockquote>𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 ➥ <a href="https://t.me/+n8A12pYV6RwwNGU1">
+    𝐔𝐏𝐃𝐀𝐓𝐄 CHANNEL
+    </a></blockquote></b><b><blockquote>𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 ➥ <a href="https://t.me/+YikUIObYI_pmOWU1">
+    @𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏</a></blockquote></b>"""
 
-    
-MOVIE_UPDATE_NOTIFY_TXT = """
-</b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
+    MOVIE_UPDATE_NOTIFY_TXT = """
+    </b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
 
-<blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename} {year}</code>
+    <blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename} {year}</code>
 
-🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
-📺 ᴏᴛᴛ        : <b>{ott}</b>
-🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
-🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
-🔥 ʀᴀᴛɪɴɢ   : <b>{rating}</b>
-{episodes}
-</blockquote>
+    🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
+    📺 ᴏᴛᴛ        : <b>{ott}</b>
+    🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
+    🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
+    🔥 ʀᴀᴛɪɴɢ   : <b>{rating}</b>
+    {episodes}
+    </blockquote>
 
-🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
-"""
-
+    🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
+    """
 
     IMDB_TEMPLATE_TXT = """<b><a href={url}>{title} (<a href={url}/releaseinfo>{year}</a>)
 
-ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a>
-ɢᴇɴʀᴇ : {genres}
-ᴀᴜᴅɪᴏ : {languages}
+    ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a>
+    ɢᴇɴʀᴇ : {genres}
+    ᴀᴜᴅɪᴏ : {languages}
 
-sʜᴏᴡɴ ɪɴ : {remaining_seconds} <i>sᴇᴄ</i>⚡️
-<b>ʀᴇǫ ʙʏ : {message.from_user.mention}</b>"""
+    sʜᴏᴡɴ ɪɴ : {remaining_seconds} <i>sᴇᴄ</i>⚡️
+    <b>ʀᴇǫ ʙʏ : {message.from_user.mention}</b>"""
 
     LOGO = r"""
     ██████╗░██████╗░███████╗░█████╗░███╗░░░███╗██╗░░██╗██████╗░░█████╗░████████╗███████╗
