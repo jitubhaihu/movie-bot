@@ -278,7 +278,7 @@ CAPTION = """  <a href="https://t.me/+lVuSGuIJT3E4NTY1">
 @𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏</a></blockquote></b>"""
 
     
-    MOVIE_UPDATE_NOTIFY_TXT = """
+MOVIE_UPDATE_NOTIFY_TXT = """
 </b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
 
 <blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename} {year}</code>
